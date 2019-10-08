@@ -1,0 +1,32 @@
+/*
+!Uppercase & Center Category titles
+  .widget h3.title
+  maybe -> .title
+  else -> content h1.title
+
+!Sidebar prettify
+  .widget
+    padding-left
+  .widget ul
+    remove bullets
+  .widget ul li
+    distinguish each item
+
+!Remove Date
+  span.date
+    height: 0
+
+!Title margin
+  .content h1.title
+  margin-bottom: ~1em
+
+!Do something with banner title & blurb
+  add below and others
+
+
+
+
+
+
+
+*/

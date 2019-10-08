@@ -1,24 +1,19 @@
 <div class="sidebar material-sidebar">
-  
     <!-- toggle link for responsive version -->
     <span class="sidebar-toggle">
         <i class="fa fa-plus"></i>
     </span>
-    
-    {% include header.html %}
-    
     <div class="widget">
-        <h3 class="title">Categories</h3>
-        {% include category_list.html %}
+        {% for category in site.categories %}
+            <h3 class="title">{{ category[0] }}</h3>
+            <ul>
+            <!-- {% assign sorted_array = category[1] %} -->
+            <!-- {{sorted_array | sort "index" }} -->
+            {% for post in category[1] %}
+                 <li {% if page.title == post.title %}class="active-post"{% endif %}>
+                   <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
     </div>
-    <div class="widget">
-        <h3 class="title">Tags</h3>
-        {% include tag_list.html %}
-    </div>
-
-    <div class="widget">
-        <h3 class="title">Authors</h3>
-        {% include author_list.html %}
-    </div>
-    
 </div>
