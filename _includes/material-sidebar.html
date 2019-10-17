@@ -4,16 +4,29 @@
         <i class="fa fa-plus"></i>
     </span>
     <div class="widget">
-        {% for category in site.categories %}
-            <h3 class="title">{{ category[0] }}</h3>
+        <!-- Create -->
+            <h3 class="title">Create</h3>
             <ul>
-            <!-- {% assign sorted_array = category[1] %} -->
-            <!-- {{sorted_array | sort "index" }} -->
-            {% for post in category[1] %}
+            {% for post in site.categories['create'] %}
                  <li {% if page.title == post.title %}class="active-post"{% endif %}>
                    <a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
             </ul>
-        {% endfor %}
+        <!-- Maintain -->
+            <h3 class="title">Maintain</h3>
+            <ul>
+            {% for post in site.categories['maintain'] %}
+                 <li {% if page.title == post.title %}class="active-post"{% endif %}>
+                   <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        <!-- Share -->
+            <h3 class="title">Share</h3>
+            <ul>
+            {% for post in site.categories['share'] %}
+                 <li {% if page.title == post.title %}class="active-post"{% endif %}>
+                   <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
     </div>
 </div>

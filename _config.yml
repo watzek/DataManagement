@@ -4,7 +4,7 @@ description: Website for educational resources pertaining to data management pra
 destination: jekyllbuild
 url: #place url
 baseurl: #place folder name if site is served in subfolder
-permalink: /:title/
+permalink: /:categories/:title/
 paginate: 8
 paginate_path: /page/:num/
 infinite_scroll: true #change to false if you want to use pagination

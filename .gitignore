@@ -8,3 +8,5 @@
 /documentation/node_modules/
 /documentation/jekyllbuild/
 newPost.bat
+serve.bat
+.*
