@@ -1,5 +1,6 @@
 ---
 category: [create]
+summary: "Classify different types of data"
 ---
 
 ## What is Research Data?
