@@ -4,20 +4,22 @@ summary: "Classify different types of data"
 ---
 
 ## What is Research Data?
+<span class="img-lg">
 ![Data Example 1][1]  
+</span>
 
 Data is related  information, facts and statistics collected together for reference or analysis.<sup>1<span>Paraphrased between The Oxford English Dictionary & the online Merriam-Webster Dictionary. </span></sup>  
 
-<span class="image-enclose">
-<span>![Data Example 2][2]  
+<span class="image-enclose-5">
+<span class="img-sm">![Data Example 2][2]  
 Collect<sup>2<span>Goodward CC, 2019. “Beaker” Pixabay. [Reference 2](ref2)</span></sup></span>
-<span>![Data Example 3][3]  
+<span class="img-sm">![Data Example 3][3]  
 Record</span>
-<span>![Data Example 4][4]  
+<span class="img-sm">![Data Example 4][4]  
 Analyze</span>
-<span>![Data Example 5][5]  
+<span class="img-sm">![Data Example 5][5]  
 Reference</span>
-<span>![Data Example 6][6]  
+<span class="img-sm">![Data Example 6][6]  
 Share<sup>3<span>“Ethylene” Wikipedia. 2019. [Reference 3](ref3)</span></sup></span>
 </span>
 

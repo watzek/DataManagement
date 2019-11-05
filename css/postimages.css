@@ -1,16 +1,40 @@
-img[src*="#body"] {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-}
+/* img[src*="#body"] {
 
-.image-enclose {
+} */
+
+.image-enclose-4 {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-column-gap: 1em;
 }
+
+.image-enclose-5 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 1em; 
+}
+
 .image-enclose span {
   text-align: center;
 }
+.img-lg img
+{
+  object-fit: contain;
+  width: 600px;
+  height: 600px;
+}
+.img-md img
+{
+  object-fit: contain;
+  width: 400px;
+  height: 400px;
+}
+.img-sm img
+{
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
 
 /*# sourceMappingURL=postimages.css.map */
