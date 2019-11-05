@@ -5,7 +5,7 @@
     </span>
     <div class="widget">
         <!-- Create -->
-            <h3 class="title">Create</h3>
+            <h3 class="title"><a href="{{ site.baseurl | replace: '//' '/' }}/category/create">Create</a></h3>
             <ul>
             {% for post in site.categories['create'] %}
                  <li {% if page.title == post.title %}class="active-post"{% endif %}>
@@ -13,7 +13,7 @@
             {% endfor %}
             </ul>
         <!-- Maintain -->
-            <h3 class="title">Maintain</h3>
+            <h3 class="title"><a href="{{ site.baseurl | replace: '//' '/' }}/category/maintain">Maintain</a></h3>
             <ul>
             {% for post in site.categories['maintain'] %}
                  <li {% if page.title == post.title %}class="active-post"{% endif %}>
@@ -21,7 +21,7 @@
             {% endfor %}
             </ul>
         <!-- Share -->
-            <h3 class="title">Share</h3>
+            <h3 class="title"><a href="{{ site.baseurl | replace: '//' '/' }}/category/share">Share</a></h3>
             <ul>
             {% for post in site.categories['share'] %}
                  <li {% if page.title == post.title %}class="active-post"{% endif %}>
