@@ -1,4 +1,4 @@
-<!-- 
+<!--
     this is the complete index for articles, as you can see it on the index page.
     Every Post type get's their own little settings.
 -->
@@ -48,7 +48,7 @@
                 </a>
         {% endif %}
     {% endif %}
-    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+    <span class="date"></span>
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">
         <h1>{{ post.title }}</h1>
     </a>
