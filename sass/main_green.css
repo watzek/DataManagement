@@ -2472,7 +2472,7 @@ body {
   vertical-align: middle;
   text-decoration: none;
   color: white;
-  background-color: #E040FB;
+  background-color: #FF5252;
   text-align: center;
   letter-spacing: 0.5px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -2481,7 +2481,7 @@ body {
   font-weight: 400;
 }
 .btn:hover {
-  background-color: #e459fc;
+  background-color: #ff6c6c;
   color: white;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
@@ -2511,7 +2511,7 @@ body {
   vertical-align: middle;
   box-shadow: none;
   background-color: transparent;
-  color: #E040FB;
+  color: #FF5252;
   cursor: pointer;
 }
 .btn-flat.disabled {
@@ -2783,7 +2783,7 @@ th {
 
 .icon {
   transition: 0.3s all ease;
-  fill: #5D4037;
+  fill: #388E3C;
 }
 .icon .lines {
   stroke: white;
@@ -2806,19 +2806,19 @@ th {
   font-size: 30px;
   font-weight: 300;
   line-height: 125%;
-  fill: #E040FB;
+  fill: #FF5252;
   font-family: "Roboto", "Calibri", "Arial", sans-serif;
   transition: 0.3s all ease;
 }
 
 a:hover svg .icon {
-  fill: #E040FB;
+  fill: #FF5252;
 }
 a:hover svg .twister {
-  fill: #5D4037;
+  fill: #388E3C;
 }
 a:hover svg .slogan {
-  fill: #D7CCC8;
+  fill: #C8E6C9;
 }
 
 body.overflow {
@@ -2861,7 +2861,7 @@ body.overflow {
 
 #menu {
   z-index: 105;
-  background: #795548;
+  background: #4CAF50;
   color: #FFF;
 }
 #menu .toggle-link {
@@ -2903,10 +2903,10 @@ body.overflow {
     line-height: 44px;
   }
   #menu a {
-    color: #E040FB;
+    color: #FF5252;
   }
   #menu a:hover {
-    color: #E040FB;
+    color: #FF5252;
   }
   #menu.active {
     transform: translate(-320px, 0);
@@ -2938,7 +2938,7 @@ body.overflow {
 }
 
 .main-menu {
-  background: #795548;
+  background: #4CAF50;
   color: #FFF;
   height: 64px;
   position: fixed;
@@ -2991,7 +2991,7 @@ body.overflow {
 .dropdown-content li {
   display: block !important;
   clear: both;
-  color: #E040FB;
+  color: #FF5252;
   cursor: pointer;
   line-height: 1.5rem;
   width: 100%;
@@ -3005,7 +3005,7 @@ body.overflow {
 .dropdown-content li > a, .dropdown-content li > span {
   box-sizing: border-box;
   font-size: 1.2rem;
-  color: #E040FB !important;
+  color: #FF5252 !important;
   display: block;
   padding: 1rem 1rem;
 }
@@ -3139,7 +3139,7 @@ body.overflow {
   vertical-align: middle;
   text-decoration: none;
   color: white;
-  background-color: #E040FB;
+  background-color: #FF5252;
   text-align: center;
   letter-spacing: 0.5px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -3147,7 +3147,7 @@ body.overflow {
   cursor: pointer;
 }
 #grid:hover {
-  background-color: #e459fc;
+  background-color: #ff6c6c;
   color: white;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
@@ -3177,14 +3177,14 @@ body.overflow {
   content: "";
   width: 2px;
   height: 100%;
-  background: #E040FB;
+  background: #FF5252;
   position: absolute;
   top: 0;
   left: calc(50% - 1px);
 }
 #grid span:after {
   content: "";
-  background: #E040FB;
+  background: #FF5252;
   position: absolute;
   width: 100%;
   height: 2px;
@@ -3195,7 +3195,7 @@ body.overflow {
   background: white;
 }
 #grid:hover span:before, #grid:hover span:after {
-  background: #e459fc;
+  background: #ff6c6c;
 }
 
 #classic {
@@ -3210,7 +3210,7 @@ body.overflow {
   vertical-align: middle;
   text-decoration: none;
   color: white;
-  background-color: #E040FB;
+  background-color: #FF5252;
   text-align: center;
   letter-spacing: 0.5px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -3218,7 +3218,7 @@ body.overflow {
   cursor: pointer;
 }
 #classic:hover {
-  background-color: #e459fc;
+  background-color: #ff6c6c;
   color: white;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
@@ -3249,7 +3249,7 @@ body.overflow {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #E040FB;
+  background: #FF5252;
   left: 0;
 }
 #classic span:before {
@@ -3262,7 +3262,7 @@ body.overflow {
   background: white;
 }
 #classic:hover span:before, #classic:hover span:after {
-  background: #e459fc;
+  background: #ff6c6c;
 }
 
 article {
@@ -3536,6 +3536,21 @@ article ol {
   transition: 0.5s all ease;
 }
 
+.has-material-sidebar-left,
+.has-material-sidebar-left .main-menu,
+.has-material-sidebar-right,
+.has-material-sidebar-right .main-menu {
+  width: calc(100% - 320px);
+}
+@media screen and (max-width: 1330px) {
+  .has-material-sidebar-left,
+.has-material-sidebar-left .main-menu,
+.has-material-sidebar-right,
+.has-material-sidebar-right .main-menu {
+    width: calc(100% - 30px);
+  }
+}
+
 .has-material-sidebar-left {
   margin-left: 320px;
 }
@@ -3563,13 +3578,21 @@ article ol {
 .has-material-sidebar-right .material-sidebar {
   right: 0;
 }
+@media screen and (max-width: 1330px) {
+  .has-material-sidebar-right {
+    margin-right: 30px;
+  }
+  .has-material-sidebar-right .main-menu {
+    margin-right: 30px;
+  }
+}
 
 footer {
   width: 100%;
   box-sizing: border-box;
   line-height: 54px;
   height: 54px;
-  background: #5D4037;
+  background: #388E3C;
   color: #FFF;
   font-size: 0.9em;
   align-self: flex-end;
@@ -3581,7 +3604,7 @@ footer a {
 }
 footer a:hover {
   color: #FFF;
-  background: #3d2a24;
+  background: #2a692d;
 }
 footer .content {
   display: flex;
@@ -3596,7 +3619,7 @@ footer .backtotop {
 }
 footer .backtotop:hover {
   color: #FFF;
-  background: #3d2a24;
+  background: #2a692d;
   cursor: pointer;
 }
 
@@ -4047,4 +4070,4 @@ pre, .highlight pre,
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*# sourceMappingURL=main_brown.css.map */
+/*# sourceMappingURL=main_green.css.map */

@@ -1,0 +1,16 @@
+img[src*="#body"] {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.image-enclose {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 1em;
+}
+.image-enclose span {
+  text-align: center;
+}
+
+/*# sourceMappingURL=postimages.css.map */

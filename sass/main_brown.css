@@ -3536,6 +3536,21 @@ article ol {
   transition: 0.5s all ease;
 }
 
+.has-material-sidebar-left,
+.has-material-sidebar-left .main-menu,
+.has-material-sidebar-right,
+.has-material-sidebar-right .main-menu {
+  width: calc(100% - 320px);
+}
+@media screen and (max-width: 1330px) {
+  .has-material-sidebar-left,
+.has-material-sidebar-left .main-menu,
+.has-material-sidebar-right,
+.has-material-sidebar-right .main-menu {
+    width: calc(100% - 30px);
+  }
+}
+
 .has-material-sidebar-left {
   margin-left: 320px;
 }
@@ -3562,6 +3577,14 @@ article ol {
 }
 .has-material-sidebar-right .material-sidebar {
   right: 0;
+}
+@media screen and (max-width: 1330px) {
+  .has-material-sidebar-right {
+    margin-right: 30px;
+  }
+  .has-material-sidebar-right .main-menu {
+    margin-right: 30px;
+  }
 }
 
 footer {
