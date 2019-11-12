@@ -13,16 +13,21 @@
   text-decoration: none;
   visibility: hidden;
   width: 160px;
-  background-color: #111;
-  color: #fff;
+  background-color: #F9F9F9;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 0;
+  padding: 1em;
   position: absolute;
   z-index: 1;
   bottom: 125%;
   left: 50%;
   margin-left: -80px;
+  border: 2px solid black;
+}
+
+.popup .popup-text a {
+  visibility: hidden;
+  transition: none;
 }
 
 /* Popup arrow */
@@ -35,11 +40,18 @@
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
+  text-decoration: underline;
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
   visibility: visible;
+}
+
+.popup .show a {
+  text-decoration: underline;
+  visibility: visible;
+  transition: none;
 }
 
 /*# sourceMappingURL=popup.css.map */

@@ -1,21 +1,67 @@
-img[src*="#header"]
+.float-r
 {
+  float:right;
 }
 
-img[src*="#body"]
+.float-l
 {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
+  float:left;
 }
 
-.image-enclose
+.image-col-2
 {
-  span
-  {
-      text-align: center;
-  }
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-column-gap: 1em;
+}
+
+.image-row-4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 1em;
+}
+
+.image-row-5 {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   grid-column-gap: 1em;
 }
+
+.image-row span {
+  text-align: center;
+}
+
+img
+{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.img-lg, .img-md, .img-sm
+{
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.img-lg img
+{
+  object-fit: contain;
+  width: 600px;
+  height: 600px;
+}
+.img-md img
+{
+  object-fit: contain;
+  width: 350px;
+  height: 350px;
+}
+.img-sm img
+{
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+
+/*# sourceMappingURL=postimages.css.map */
