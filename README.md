@@ -2,9 +2,13 @@
 This Jekyll site is a skeleton for a website created to be a resource for teaching standard data management practices in the context of chemistry research data.  
 The material has been split into three categories - Create, Maintain, Share.
 
-
-## Specifics
+## The Specifics
 The site uses Jekyll, which is a static website generator, to generate a blog-like website containing pages for each of the modules. The modules are actualized as Jekyll "Posts"...
+
+Gabe - 40 &rarr; 93
+Ben - 94 &rarr; 147
+Jamie - 147 &rarr; 200
+
 
 ### Posts
 Each of modules (represented internally as a post) are stored in the \_posts directory, and are organized by category. The naming convention is as follows:

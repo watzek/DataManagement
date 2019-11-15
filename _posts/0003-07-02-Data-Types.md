@@ -51,7 +51,7 @@ Experimental data should be reproducible, but experimental data can be expensive
 ##### Simulation
 
 Simulation data are results from a model used to study the behavior and performance of an actual or theoretical system.
-??Models and metadata, where the input can be more important than output data??
+A common example is models and their accompanying metadata, where the input can be more important than output data.
 
 <br/>
 **Examples**

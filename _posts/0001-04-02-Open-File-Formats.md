@@ -6,7 +6,7 @@ When sharing data, it is important to consider what format your data is in, and 
 
 
 | Data | Open Format | Proprietary Format |
-| :------------- | :-------------: | ------------- :  |
+| :------------- | :------------- | :-------------  |
 | Chemical Structure   | MOL, SDF           | CDX     |
 |Spectra (e.g. NMR)    | JCAMP-DX, NMReDATA | FID     |
 |Mass Spec             | mzML               | RAW, BAF|

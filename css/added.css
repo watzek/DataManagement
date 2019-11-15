@@ -1,61 +1,66 @@
-
-.jscroll-inner /* Center index categories*/
-{
-	justify-content: center !important;
+.jscroll-inner {
+  justify-content: center !important;
 }
 
-.title
-{
-	text-transform: capitalize;
+.title {
+  text-transform: capitalize;
 }
 
-h1.title
-{
-	text-align: center;
-	margin-bottom: 1em;
+h1.title {
+  text-align: center;
+  margin-bottom: 1em;
 }
 
-.widget
-{
-	padding-left: 1rem;
-}
-.widget ul
-{
-	list-style-type: decimal-leading-zero;
+.widget {
+  padding-left: 1rem;
 }
 
-.widget > ul > li:nth-child(even)
-{
-	background-color: #FDFDFD;
+.widget ul {
+  list-style-type: decimal-leading-zero;
 }
 
-.widget > ul > li:nth-child(odd)
-{
-	background-color: #F9F9F9;
+.widget > ul > li:nth-child(even) {
+  background-color: #FDFDFD;
 }
 
-.header
-{
-	background-color: #F9F9F9;
-	padding: 2em;
-	width: 100%;
-	text-align: center;
+.widget > ul > li:nth-child(odd) {
+  background-color: #F9F9F9;
 }
 
-.ex1
-{
-	text-align: center;
-	max-width: 7em;
-	display: inline;
-}
-.ex2
-{
-	text-align: center;
-	max-width: 50%;
-	margin:auto;
+.header {
+  background-color: #F9F9F9;
+  padding: 2em;
+  width: 100%;
+  text-align: center;
 }
 
-.active-post
-{
-	background-color: #D0D0D0 !important;
+.ex1 {
+  text-align: center;
+  max-width: 7em;
+  display: inline;
 }
+
+.ex2 {
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+}
+
+.active-post {
+  background-color: #D0D0D0 !important;
+}
+
+table, tr, th, td {
+  border: 1px solid #AAAAAA;
+}
+
+table {
+  box-shadow: 2px 2px #AAAAAA;
+}
+
+p:first-of-type {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=added.css.map */
