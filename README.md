@@ -5,9 +5,9 @@ The material has been split into three categories - Create, Maintain, Share.
 ## The Specifics
 The site uses Jekyll, which is a static website generator, to generate a blog-like website containing pages for each of the modules. The modules are actualized as Jekyll "Posts"...
 
-Gabe - 40 &rarr; 93
-Ben - 94 &rarr; 147
-Jamie - 147 &rarr; 200
+Gabe - 40 &rarr; 93  
+Ben - 94 &rarr; 147  
+Jamie - 147 &rarr; 200  
 
 
 ### Posts
