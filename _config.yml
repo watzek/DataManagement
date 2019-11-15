@@ -1,9 +1,14 @@
+lsi: false
+safe: true
+source: /
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
 full_rebuild: true
 name: Learn Data Management
 description: Website for educational resources pertaining to data management practices
 destination: jekyllbuild
-url: #place url
-baseurl: #place folder name if site is served in subfolder
 permalink: /:categories/:title/
 paginate: 8
 paginate_path: /page/:num/
