@@ -2,48 +2,48 @@
 category: [create]
 ---
 
-#### Chemistry Specific Metadata
+### Chemistry Specific Metadata
 
-##### Bibliographic
+#### Bibliographic
 
-###### Creator / Contributor
+##### Creator / Contributor
 
 An ORCID can uniquely identify and disambiguate a single author/creator/researcher. Researchers often include their OpenResearch and Contributor ID (ORCID) with research or data. This is important because there may be many people of the same name even in one specific subject area.
 
-###### Associated Publication
+##### Associated Publication
 
 A DOI (Dital Object Identifier) can uniquely identify publications, datasets, and other published resources. They are often generated with new research and data.
 ![5]
 
-###### Creation Date and Time
+##### Creation Date and Time
 
 Including metadata about when the data was created helps provided context
 
-###### Data Types
+##### Data Types
 
 Including metadata about data types provided and used can help with reproducibility and accessibility.
 
-###### Funding Information
+##### Funding Information
 
-###### Version Number
+##### Version Number
 
 Including a version number can help identify which version of a dataset, software, or other digital object was used in a specific experiment.
 
-##### Contextual
+#### Contextual
 
-###### Experimental Conditions
+##### Experimental Conditions
 
-###### Instrument Parameters
+##### Instrument Parameters
 
-###### Other Technical Information
+##### Other Technical Information
 
-##### Substance/Compound
+#### Substance/Compound
 
-###### Persistend Identifier
+##### Persistend Identifier
 
-###### Chemical Structure
+##### Chemical Structure
 
-###### Biomolecular sequence
+##### Biomolecular sequence
 
 
 
