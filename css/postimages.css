@@ -6,6 +6,10 @@
   float: left;
 }
 
+.center {
+  margin: auto;
+}
+
 .image-col-2 {
   display: grid;
   grid-template-rows: auto auto;
@@ -26,6 +30,12 @@
 
 .image-row span {
   text-align: center;
+}
+
+a img {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
 }
 
 img {

@@ -5,7 +5,7 @@ category: [share]
 When sharing data, it is important to consider what format your data is in, and whether this format is open, or proprietary. Open formats are great for sharing, proprietary formats are not to be shared!
 
 
-| Data | Open Format | Proprietary Format |
+| Data | <span id="shareme">Open Format</span> | Proprietary Format |
 | :------------- | :------------- | :-------------  |
 | Chemical Structure   | MOL, SDF           | CDX     |
 |Spectra (e.g. NMR)    | JCAMP-DX, NMReDATA | FID     |
