@@ -30,7 +30,9 @@
 
 img {
   box-sizing: border-box;
-  margin: 0;
+  margin: 10px;
+  padding: 0.2em;
+  background-color: #F0F0F0;
 }
 
 .img-lg, .img-md, .img-sm {
