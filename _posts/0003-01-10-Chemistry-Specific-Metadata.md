@@ -45,6 +45,11 @@ Including a version number can help identify which version of a dataset, softwar
 
 ##### Biomolecular sequence
 
+### Structural 
+
+### Rights Management
+
+
 
 
 [1]:/img/metadata/bookmeta.png
