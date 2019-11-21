@@ -17,18 +17,18 @@ As shown in the table below, tabular experimental data could be stored in many d
 
 Even simple structural data can exist in different formats!
 
-![image2]  
+<span class="img-md">![image2]</span>
 
 This image is visually easy for humans to interpret.
 It could be a JPG or PNG, or a file from ChemDraw (.cvs). The image itself isn’t machine readable, but behind the image is the ‘connection table’ that tells the computer how to draw the image.    
 
-![image3]  
+<span class="img-md">![image3]</span>
 
 The numbers in the above SDF/Molfile tell the exact position of the element, detailing how the machine should draw the image for humans.
 
-![image1]  
+<span class="img-md">![image1]</span>
 
-To go even further, InChI, the IUPAC International Chemical Identifier, standardizes and ‘hashes’ information to become shorter. So you can use searches like Google to do a structure search if you have an InChI key associated with your article! Google can’t search strings that are too long, so we needed a way to represent our desired image that is google-readable.
+To go even further, InChI, the IUPAC International Chemical Identifier, standardizes and ‘hashes’ information to become shorter. So you can use search engines like Google to do a structured search if you have an InChI key associated with your article! Google can’t search strings that are too long, so we needed a way to represent our desired image that is google-readable.
 
 But all these different formats are representing the same compound!
 
