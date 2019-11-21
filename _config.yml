@@ -1,10 +1,10 @@
-# lsi: false
-# safe: true
-# source: /
-# incremental: false
-# highlighter: rouge
-# gist:
-#   noscript: false
+lsi: false
+safe: true
+source: /
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
 full_rebuild: true
 name: Learn Data Management
 description: Website for educational resources pertaining to data management practices

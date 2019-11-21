@@ -2,11 +2,11 @@
   comp: create
   url: /category/create
   featimg: 1.jpg
-- title: Share
-  comp: share
-  url: /category/share
-  featimg: 3.jpg
 - title: Maintain
   comp: maintain
   url: /category/maintain
   featimg: 2.jpg
+- title: Share
+  comp: share
+  url: /category/share
+  featimg: 3.jpg

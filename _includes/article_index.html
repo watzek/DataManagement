@@ -22,7 +22,11 @@
                     {{ post.audio-embed }}
                 </div>
             {% endif %}
+
+
         {% else %}
+
+
             {% if post.featimg %}
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
                     {% if post.featimg contains '.png'%}

@@ -15,22 +15,30 @@ As shown in the table below, tabular experimental data could be stored in many d
 |SPSS portable file (.por)|
 |XML file (.xml)|
 
-Even simple structural data can exist in different formats!
-
+Even simple structural data can exist in different formats!  
+For example, this image is visually easy for humans to interpret (it is in a human readable format).
+It could be a JPG or PNG, or a file from ChemDraw (.cvs). The image itself isn’t machine readable, but behind the image is the ‘connection table’ that tells the computer how to draw the image.
 <span class="img-md">![image2]</span>
 
-This image is visually easy for humans to interpret.
-It could be a JPG or PNG, or a file from ChemDraw (.cvs). The image itself isn’t machine readable, but behind the image is the ‘connection table’ that tells the computer how to draw the image.    
+The numbers in the SDF/Molfile below tell the exact position of the element, detailing how the machine should draw the image for humans.
 
-<span class="img-md">![image3]</span>
+![image3]
 
-The numbers in the above SDF/Molfile tell the exact position of the element, detailing how the machine should draw the image for humans.
+To go even further, InChI, the IUPAC International Chemical Identifier,
+standardizes and ‘hashes’ information to make it shorter. Search engines like
+google can’t search using strings that are too long, so a new format was
+needed to allow for these types of searches searches.
+So now, if you have an InChI key associated with your article, a search engine
+can be used to find it! While the first format was human readable,
+this format, InChIKey, is google-readable!
 
-<span class="img-md">![image1]</span>
+![image1]
 
-To go even further, InChI, the IUPAC International Chemical Identifier, standardizes and ‘hashes’ information to become shorter. So you can use search engines like Google to do a structured search if you have an InChI key associated with your article! Google can’t search strings that are too long, so we needed a way to represent our desired image that is google-readable.
-
-But all these different formats are representing the same compound!
+These are all different formats, but they are all representing the same compound.
+It is important to notice that you should consider different formats depending
+on what you are trying to accomplish. If you are trying to make something easy
+for humans to understand, a visual format (pictures or video) is often the
+way to go!
 
 
 [image1]: /img/file-formats/image1.png

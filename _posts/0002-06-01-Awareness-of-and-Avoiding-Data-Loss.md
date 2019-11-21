@@ -44,6 +44,10 @@ How can you protect yourself?
 
 ---
 ##### Physical Theft and Damage
+Something else that happens ALL THE TIME: hard drives get stolen, laptops get knocked off of countertops.
+Solutions?
+Practice good physical security (don’t leave your stuff lying around in the library while you go to another floor to chat with someone else!) and be cognizent of the fragility of your equipment.
+
 
 
 
