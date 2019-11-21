@@ -20,6 +20,12 @@
   grid-column-gap: 1em;
 }
 
+.image-row-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1em;
+}
+
 .image-row-4 {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -56,6 +62,13 @@ img
   padding: 0;
   display: grid;
   grid-template-rows: auto auto;
+  position: relative;
+  .popup
+  {
+      position: absolute;
+      right: 1rem;
+      bottom: 1rem;
+  }
 }
 
 .img-lg img
@@ -76,6 +89,3 @@ img
   width: 200px;
   height: 200px;
 }
-
-
-/*# sourceMappingURL=postimages.css.map */

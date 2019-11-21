@@ -11,9 +11,10 @@
 
 /* The actual popup (appears on top) */
 .popup .popup-text {
+  word-wrap: break-word;
   text-decoration: none;
   visibility: hidden;
-  width: 160px;
+  width: 200px;
   background-color: #F9F9F9;
   text-align: center;
   border-radius: 6px;
