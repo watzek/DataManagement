@@ -35,3 +35,4 @@ Besides these few specifications, the rest of the website works as described in 
 
 ----
 The theme used in this website comes from the [Gridster Jekyll theme](https://github.com/DigitalMindCH/gridster-jekyll-theme) by DigitalMindCH. This theme mostly provides some CSS, layouts, templates and general structure.
+# code-speed-handbook
