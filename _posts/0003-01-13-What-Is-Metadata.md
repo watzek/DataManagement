@@ -2,7 +2,6 @@
 category: [create]
 ---
 
-### What is Metadata?
 
 
 *Metadata* is "Data that provides descriptive information (content, context, quality, structure, and accessibility) about a data product and enables others to search for and use the data product." It uses a Greek prefix "meta" and Latin for "data." "Meta" means "after, behind or beyond" and "data" is factual information used for calculating, reasoning or measuring. Metadata means something behind or beyond data itself, and it includes data about its content, containers and contextual information. 
