@@ -47,6 +47,7 @@ Each of these options have significant pros and cons. They are summarized below:
 - Data is available as needed, depending on the network's reliability.
 
 ###### Cons
+- Some constraints or costs from maintainers.
 
 ##### Cloud Servers
 ###### Pros
