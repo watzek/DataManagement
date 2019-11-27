@@ -4,6 +4,7 @@ category: [share]
 
 #### What is a repository?
 
+A repository is is a storage location where digital objects are stored and retrieved. A repository is typically managed by source control or repository management system.
 
 
 #### Factors to Consider When Choosing a Repository
