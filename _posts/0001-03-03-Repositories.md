@@ -19,7 +19,7 @@ A repository is is a storage location where digital objects are stored and retri
     - Persistent ID for your datasets?
     - Additional services (e.g. data cleanup, validation, format migration/normalization, metadata assistance, etc)
 
-#### Examples of repositories relevant to chemistry
+#### Examples of Repositories Particularly Relevant to Chemistry
 
 - PubChem [https://pubchem.ncbi.nlm.nih.gov/](https://pubchem.ncbi.nlm.nih.gov/) 
 - Protein Data Bank [https://rcsb.org/](https://rcsb.org)
@@ -29,3 +29,13 @@ A repository is is a storage location where digital objects are stored and retri
 - Dataverse [https://dataverse.org/](https://dataverse.org/) 
 - NMRShiftDB [https://nmrshiftdb.nmr.uni-koeln.de/](https://nmrshiftdb.nmr.uni-koeln.de/)
 - Protein Circular Dichroism Data Bank [https://pcddb.cryst.bbk.ac.uk/](https://pcddb.cryst.bbk.ac.uk/) 
+
+#### Disciplinary vs General Repositories
+
+- Is it designed for specific data types in a given discipline?
+- Metadata (e.g. fields for instrument metadata)
+- Discovery layer (e.g. chemical structure or gene sequence search)
+- Visualization (e.g. display 3D crystallographic structure, display Mass Spec etc.)
+- Expertise from the core research community
+
+
