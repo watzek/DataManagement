@@ -56,8 +56,16 @@ Here are four date formats. You should always use the `YYYY-MM-DD` format. Here,
 
 This date format is the only one which can be easily sorted to preserve chronological ordering
 
+#### File Structuring
+
+You should structure your files using a consistent strategy. When designing that strategy, consider your individual workflow, and what organizing principles will be most useful to your current team, and to colleagues in the future! 
+
+![6]
+
+
 [1]:/img/file-naming/catalog.png
 [2]:/img/file-naming/namingsegments.jpg
 [3]:/img/file-naming/namingcheatsheet.png
 [4]:/img/file-naming/strat.png
 [5]:/img/file-naming/dateformats4.png
+[6]:/img/file-organization/bestpractices.png
